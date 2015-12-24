@@ -1,0 +1,10 @@
+ <div class="units_in_case_packs"> 
+                          <p> Quantity (units in case pack increments)</p></div>
+                          <div class="quantity_dropdown"><!--style class for the dropdown>-->
+                     <label for="qty"></label>
+					<select id="quantity" name="quantity">
+						{% for i in (1..12) %} <!-- i is the interval value that we are going to multiplying. 
+                      <option value="{{ i | times:6}}">{{ i | times:6 }}</option> <!-- we use a multiple that corresponds to your case pack in this case we have packs of 6 but you can use any multiple. 
+							{% endfor %}
+								</select></div>
+                      <input type="submit" name="add" class="btn_c" id="addToCart" value="{{ 'products.product.add_to_cart' | t }}">
