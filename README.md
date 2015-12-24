@@ -37,7 +37,7 @@ Here’s our code to make a dropdown:
 
 Now people can only pick quantities from 6-72 at a multiple of 6. 
 
-Checkout Minimums 
+<h2>Checkout Minimums </h2>
 
 What if your client wants a minimum order total? Well that’s a simple liquid fix. Let’s say we want at least a $200 dollar subtotal otherwise we don’t want them to be able to check out. 
 
