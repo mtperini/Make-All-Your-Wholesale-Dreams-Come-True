@@ -1,7 +1,7 @@
 # Make-All-Your-Wholesale-Dreams-Come-True
 Shopify Wholesale Shop
 
-Quantity Dropdowns
+<h2>Quantity Dropdowns</h2>
 
 What if we need to sell in case packs and we don’t want people to be able to break up our wholesale inventory? Well you can force their selection by using a dropdown for quantity. 
 
