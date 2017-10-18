@@ -1,6 +1,10 @@
 {% if customer.tags contains 'Wholesale' and cart.total_price < 20000 %}
-        <p> Your wholesale total must be $200 or more.</p>
-         {% else %}
-          <input type="submit" name="update" class="btn--secondary update-cart" value="{{ 'cart.general.update' | t }}">
-          <input type="submit" name="checkout" class="btn checkout" value="{{ 'cart.general.checkout' | t }}">
-			{% endif %}
+
+  <p> Your wholesale total must be $200 or more.</p>
+  
+{% else %}
+
+  <input type="submit" name="update" class="btn--secondary update-cart" value="{{ 'cart.general.update' | t }}">
+  <input type="submit" name="checkout" class="btn checkout" value="{{ 'cart.general.checkout' | t }}">
+  
+{% endif %}
